@@ -6,23 +6,18 @@
 
 .wrapper {
   @include container();
+  @include full;
   margin: 0 auto;
+  max-width: 1440px;
 }
 
 header {
   @include full;
-  height: 300px;
+  height: 100px;
   background: #687561;
 }
 
-.logo {
-  @include span(2);
-  height: image-height("img/logo.png");
-  width: image-width("img/logo.png");
-}
-
 nav {
-  @include full;
   text-align: center;
   ul, li {
     padding: 0;
@@ -66,11 +61,11 @@ nav {
 
 .row-2 {
   background: #7B956D;
+  @include full;
 }
 
 footer {
+  @include full;
   height: 100px;
   background: #606F58;
-  margin-top: 10px;
-  padding: 10px;
 }
