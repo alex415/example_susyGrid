@@ -1,4 +1,4 @@
 # susy-grid
 
-# Overview
+## Overview
 Project created to test the functionality of a Susy layout (http://susy.oddbird.net/)
